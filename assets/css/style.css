@@ -1847,8 +1847,9 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #2e937a;
-  border-color: #2e937a; }
+  background-color: #eeb4a8;
+  /* #fff0e9 */
+  border-color: #eeb4a8; }
   .btn-success:hover {
     color: #fff;
     background-color: #257662;
