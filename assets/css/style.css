@@ -7155,6 +7155,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: fixed;
   left: 0px;
   top: 0px;
+  bottom: 0px;
   width: 100%;
   height: 100%;
   z-index: 9999;
@@ -7164,7 +7165,8 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 500; }
 
 .edica-header.edica-landing-header {
-  background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 55%, #fff0e8 55%, #fff0e8 100%); }
+  background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 55%, #fff0e8 55%, #fff0e8 100%);
+  }
   .edica-header.edica-landing-header .carousel-indicators {
     top: 0;
     left: auto;
@@ -7199,8 +7201,10 @@ a.text-dark:hover, a.text-dark:focus {
         margin-right: 0; }
   .edica-header.edica-landing-header .carousel-img-wrapper {
     display: flex;
-    padding-top: 95px;
+    padding-top: 35px;
+    padding-bottom: 80px;
     justify-content: center;
+    height: 100%;
     align-items: flex-end; }
 
 .edica-header .nav-link {
