@@ -1821,12 +1821,12 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #212529;
-  background-color: #d0c2af;
-  border-color: #d0c2af; }
+  background-color: #c2b097;
+  border-color: #c2b097; }
   .btn-secondary:hover {
     color: #212529;
-    background-color: #c2b097;
-    border-color: #bdaa8f; }
+    background-color: #d0c2af;
+    border-color: #d0c2af; }
   .btn-secondary:focus, .btn-secondary.focus {
     color: #212529;
     background-color: #c2b097;
@@ -1852,8 +1852,8 @@ fieldset:disabled a.btn {
   border-color: #eeb4a8; }
   .btn-success:hover {
     color: #fff;
-    background-color: #257662;
-    border-color: #226c5a; }
+    background-color: #ebbeb5;
+    border-color: #ebbeb5; }
   .btn-success:focus, .btn-success.focus {
     color: #fff;
     background-color: #257662;
@@ -7155,7 +7155,6 @@ a.text-dark:hover, a.text-dark:focus {
   position: fixed;
   left: 0px;
   top: 0px;
-  bottom: 0px;
   width: 100%;
   height: 100%;
   z-index: 9999;
@@ -7165,8 +7164,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 500; }
 
 .edica-header.edica-landing-header {
-  background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 55%, #fff0e8 55%, #fff0e8 100%);
-  }
+  background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 55%, #fff0e8 55%, #fff0e8 100%); }
   .edica-header.edica-landing-header .carousel-indicators {
     top: 0;
     left: auto;
@@ -7201,10 +7199,8 @@ a.text-dark:hover, a.text-dark:focus {
         margin-right: 0; }
   .edica-header.edica-landing-header .carousel-img-wrapper {
     display: flex;
-    padding-top: 35px;
-    padding-bottom: 80px;
+    padding-top: 95px;
     justify-content: center;
-    height: 100%;
     align-items: flex-end; }
 
 .edica-header .nav-link {
